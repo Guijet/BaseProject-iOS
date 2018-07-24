@@ -92,6 +92,7 @@
 		4627432520A9DEC900D14B5B /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627430320A9DEC900D14B5B /* ColorTools.swift */; };
 		4627432620A9DEC900D14B5B /* AttributedStringTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627430420A9DEC900D14B5B /* AttributedStringTools.swift */; };
 		4627432720A9DEC900D14B5B /* DoubleTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627430520A9DEC900D14B5B /* DoubleTools.swift */; };
+		4627432920A9E4ED00D14B5B /* NetworkingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627432820A9E4ED00D14B5B /* NetworkingHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,6 +204,7 @@
 		4627430320A9DEC900D14B5B /* ColorTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 		4627430420A9DEC900D14B5B /* AttributedStringTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedStringTools.swift; sourceTree = "<group>"; };
 		4627430520A9DEC900D14B5B /* DoubleTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleTools.swift; sourceTree = "<group>"; };
+		4627432820A9E4ED00D14B5B /* NetworkingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -347,10 +349,10 @@
 				462742E820A9DEC900D14B5B /* Gestures */,
 				462742EA20A9DEC900D14B5B /* Views */,
 				462742F520A9DEC900D14B5B /* Helpers */,
-				462742F720A9DEC900D14B5B /* FilesHelper */,
 				462742F820A9DEC900D14B5B /* Global Utility */,
 				462742FB20A9DEC900D14B5B /* Stripe */,
 				462742FD20A9DEC900D14B5B /* Utility */,
+				4627432820A9E4ED00D14B5B /* NetworkingHelper.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -446,13 +448,6 @@
 				462742F620A9DEC900D14B5B /* LocalHelper.swift */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		462742F720A9DEC900D14B5B /* FilesHelper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FilesHelper;
 			sourceTree = "<group>";
 		};
 		462742F820A9DEC900D14B5B /* Global Utility */ = {
@@ -694,6 +689,7 @@
 				4627431720A9DEC900D14B5B /* TextFieldsTools.swift in Sources */,
 				4627432320A9DEC900D14B5B /* ArrayTools.swift in Sources */,
 				4627430620A9DEC900D14B5B /* TopSelector.swift in Sources */,
+				4627432920A9E4ED00D14B5B /* NetworkingHelper.swift in Sources */,
 				4627430B20A9DEC900D14B5B /* UIImageTools.swift in Sources */,
 				4627432620A9DEC900D14B5B /* AttributedStringTools.swift in Sources */,
 				4627432220A9DEC900D14B5B /* StringTools.swift in Sources */,
